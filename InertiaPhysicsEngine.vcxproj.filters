@@ -36,35 +36,17 @@
     <ClCompile Include="src\Util\Event\EventDispatcher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Util\Camera\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Renderer\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Renderer\Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Util\Input\Input.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Input\InputPublic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Input\Keycodes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Input\KeycodeTranslator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Event\EventDispatcher.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Event\EventPayloads.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Event\EventPublic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Event\EventSubscriptionToken.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Window\Window.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\Util\Event\EventDispatcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -95,6 +77,18 @@
     <ClInclude Include="src\Util\Renderer\Renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Util\Camera\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Renderer\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Renderer\Meshes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Renderer\Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
@@ -102,5 +96,9 @@
     <None Include="README.md" />
     <None Include="bin\Debug\x64\glew32.dll" />
     <None Include="bin\Debug\x64\glfw3.dll" />
+    <None Include="assets\glsl\PosVertex.glsl" />
+    <None Include="assets\glsl\EmptyFragment.glsl" />
+    <None Include="assets\glsl\ShadowMappingVertex.glsl" />
+    <None Include="assets\glsl\ShadowMappingFragment.glsl" />
   </ItemGroup>
 </Project>

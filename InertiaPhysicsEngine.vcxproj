@@ -95,14 +95,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Util\Camera\Camera.cpp" />
     <ClCompile Include="src\Util\Event\EventDispatcher.cpp" />
     <ClCompile Include="src\Util\Event\EventSubscriptionToken.cpp" />
     <ClCompile Include="src\Util\Input\Input.cpp" />
     <ClCompile Include="src\Util\Input\KeycodeTranslator.cpp" />
+    <ClCompile Include="src\Util\Renderer\Box.cpp" />
+    <ClCompile Include="src\Util\Renderer\Mesh.cpp" />
     <ClCompile Include="src\Util\Renderer\Renderer.cpp" />
     <ClCompile Include="src\Util\Window\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Util\Camera\Camera.h" />
     <ClInclude Include="src\Util\Event\EventDispatcher.h" />
     <ClInclude Include="src\Util\Event\EventPayloads.h" />
     <ClInclude Include="src\Util\Event\EventPublic.h" />
@@ -111,21 +115,19 @@
     <ClInclude Include="src\Util\Input\InputPublic.h" />
     <ClInclude Include="src\Util\Input\Keycodes.h" />
     <ClInclude Include="src\Util\Input\KeycodeTranslator.h" />
+    <ClInclude Include="src\Util\Renderer\Box.h" />
+    <ClInclude Include="src\Util\Renderer\Mesh.h" />
+    <ClInclude Include="src\Util\Renderer\Meshes.h" />
     <ClInclude Include="src\Util\Renderer\Renderer.h" />
     <ClInclude Include="src\Util\Window\Window.h" />
-    <ClInclude Include="Util\Event\EventDispatcher.h" />
-    <ClInclude Include="Util\Event\EventPayloads.h" />
-    <ClInclude Include="Util\Event\EventPublic.h" />
-    <ClInclude Include="Util\Event\EventSubscriptionToken.h" />
-    <ClInclude Include="Util\Input\Input.h" />
-    <ClInclude Include="Util\Input\InputPublic.h" />
-    <ClInclude Include="Util\Input\Keycodes.h" />
-    <ClInclude Include="Util\Input\KeycodeTranslator.h" />
-    <ClInclude Include="Util\Window\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
+    <None Include="assets\glsl\EmptyFragment.glsl" />
+    <None Include="assets\glsl\PosVertex.glsl" />
+    <None Include="assets\glsl\ShadowMappingFragment.glsl" />
+    <None Include="assets\glsl\ShadowMappingVertex.glsl" />
     <None Include="bin\Debug\x64\glew32.dll" />
     <None Include="bin\Debug\x64\glfw3.dll" />
     <None Include="README.md" />
